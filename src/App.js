@@ -12,7 +12,7 @@ const TWITTER_HANDLE = 'josemfcheo'
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`
 // Add the domain you will be minting
 const tld = '.senior'
-const CONTRACT_ADDRESS = '0xc6e552676A256f5303bd171B045b7175df09Fa2D'
+const CONTRACT_ADDRESS = '0xdd331971ed6BbA32Af07AB214FD6998E9d3B6d8C'
 
 const App = () => {
 	const [currentAccount, setCurrentAccount] = useState('')
