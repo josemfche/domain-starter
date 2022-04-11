@@ -359,14 +359,25 @@ const App = () => {
 				{currentAccount && renderInputForm()}
 				{mints && renderMints()}
 
-				<div className="footer-container">
-					<img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-					<a
-						className="footer-text"
-						href={TWITTER_LINK}
-						target="_blank"
-						rel="noreferrer"
-					>{`built with @${TWITTER_HANDLE}`}</a>
+				<div>
+
+					<div className="footer-container">
+						<img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+						<a
+							className="footer-text"
+							href={TWITTER_LINK}
+							target="_blank"
+							rel="noreferrer"
+						>{`built with @${TWITTER_HANDLE}`}</a>
+					</div>
+					<div className="footer-container">
+						<a
+							className="footer-text"
+							href="https://faucet.polygon.technology/"
+							target="_blank"
+							rel="noreferrer"
+						>Polygon Faucet to get some Matic Token</a>
+					</div>
 				</div>
 			</div>
 		</div>
